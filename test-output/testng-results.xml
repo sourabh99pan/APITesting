@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-12-20T16:02:27 IST" name="restassuredTest2" finished-at="2022-12-20T16:02:40 IST" duration-ms="13601">
+    <groups>
+    </groups>
+    <test started-at="2022-12-20T16:02:27 IST" name="Test Basics 1" finished-at="2022-12-20T16:02:38 IST" duration-ms="11204">
+      <class name="restassuredTest2.DummyJsonGetProduct1$DummyJsonGet">
+        <test-method is-config="true" signature="setData()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:27 IST" name="setData" finished-at="2022-12-20T16:02:27 IST" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method signature="CheckBrand()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:27 IST" name="CheckBrand" finished-at="2022-12-20T16:02:29 IST" duration-ms="1930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckBrand -->
+        <test-method signature="CheckDiscountPercentage()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:29 IST" name="CheckDiscountPercentage" finished-at="2022-12-20T16:02:30 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckDiscountPercentage -->
+        <test-method signature="CheckRating()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:30 IST" name="CheckRating" finished-at="2022-12-20T16:02:31 IST" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckRating -->
+        <test-method signature="CheckStock()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:31 IST" name="CheckStock" finished-at="2022-12-20T16:02:31 IST" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStock -->
+        <test-method signature="checkCategoryIgnoreCase()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:31 IST" name="checkCategoryIgnoreCase" finished-at="2022-12-20T16:02:32 IST" duration-ms="979" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCategoryIgnoreCase -->
+        <test-method signature="checkDesc()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:32 IST" name="checkDesc" finished-at="2022-12-20T16:02:33 IST" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDesc -->
+        <test-method signature="checkPrice()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:33 IST" name="checkPrice" finished-at="2022-12-20T16:02:34 IST" duration-ms="797" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkPrice -->
+        <test-method signature="checkStatusCode()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:34 IST" name="checkStatusCode" finished-at="2022-12-20T16:02:35 IST" duration-ms="791" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkTitle()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:35 IST" name="checkTitle" finished-at="2022-12-20T16:02:36 IST" duration-ms="758" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method signature="checkTitleEndsWith()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:36 IST" name="checkTitleEndsWith" finished-at="2022-12-20T16:02:36 IST" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitleEndsWith -->
+        <test-method signature="checkTitleStartsWith()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:36 IST" name="checkTitleStartsWith" finished-at="2022-12-20T16:02:37 IST" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitleStartsWith -->
+        <test-method signature="checkTitlecontainString()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:37 IST" name="checkTitlecontainString" finished-at="2022-12-20T16:02:38 IST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitlecontainString -->
+      </class> <!-- restassuredTest2.DummyJsonGetProduct1$DummyJsonGet -->
+    </test> <!-- Test Basics 1 -->
+    <test started-at="2022-12-20T16:02:38 IST" name="Test Basics 2" finished-at="2022-12-20T16:02:40 IST" duration-ms="2363">
+      <class name="restassuredTest2.DummyJsonGet">
+        <test-method is-config="true" signature="setData()[pri:0, instance:restassuredTest2.DummyJsonGet@5e600dd5]" started-at="2022-12-20T16:02:38 IST" name="setData" finished-at="2022-12-20T16:02:38 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method signature="checkStatusCode()[pri:0, instance:restassuredTest2.DummyJsonGet@5e600dd5]" started-at="2022-12-20T16:02:38 IST" name="checkStatusCode" finished-at="2022-12-20T16:02:39 IST" duration-ms="772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method signature="checkTitle()[pri:0, instance:restassuredTest2.DummyJsonGet@5e600dd5]" started-at="2022-12-20T16:02:39 IST" name="checkTitle" finished-at="2022-12-20T16:02:39 IST" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method signature="checkwithResponse()[pri:0, instance:restassuredTest2.DummyJsonGet@5e600dd5]" started-at="2022-12-20T16:02:39 IST" name="checkwithResponse" finished-at="2022-12-20T16:02:40 IST" duration-ms="787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkwithResponse -->
+      </class> <!-- restassuredTest2.DummyJsonGet -->
+    </test> <!-- Test Basics 2 -->
+  </suite> <!-- restassuredTest2 -->
+</testng-results>

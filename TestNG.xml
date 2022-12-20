@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="restassuredTest2">
+  <test name="Test Basics 1">
+      <classes>
+      <class name="restassuredTest2.DummyJsonGetProduct1"/>
+      </classes>
+  </test> <!-- Test --> 
+   
+  <test name="Test Basics 2">    
+    <classes>
+       <class name="restassuredTest2.DummyJsonGet"/>
+    </classes>
+     
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
