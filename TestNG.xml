@@ -18,8 +18,13 @@
     <test name="Test Basics 3">    
     <classes>
        <class name="restassuredTest2.Http_401_Error"/>
-    </classes>
- 
- 
+    </classes> 
   </test> <!-- Test -->
+  
+      <test name="Test Basics 4">    
+    <classes>
+       <class name="restassuredTest2.Http_404_NotFound"/>
+    </classes> 
+  </test> <!-- Test -->
+  
 </suite> <!-- Suite -->
