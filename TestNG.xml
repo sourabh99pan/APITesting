@@ -11,6 +11,15 @@
     <classes>
        <class name="restassuredTest2.DummyJsonGet"/>
     </classes>
-     
+ 
+ 
+  </test> <!-- Test -->
+  
+    <test name="Test Basics 3">    
+    <classes>
+       <class name="restassuredTest2.Http_401_Error"/>
+    </classes>
+ 
+ 
   </test> <!-- Test -->
 </suite> <!-- Suite -->
