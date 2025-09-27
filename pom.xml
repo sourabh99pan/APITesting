@@ -29,6 +29,13 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 	    <version>4.5.0</version>
 	</dependency>
 
+	<dependency>
+	    <groupId>com.microsoft.sqlserver</groupId>
+	    <artifactId>mssql-jdbc</artifactId>
+	    <version>8.2.1.jre11</version>
+	</dependency>
+	
+	
   	
   	<!-- https://mvnrepository.com/artifact/io.rest-assured/json-path -->
 	<dependency>
@@ -68,6 +75,35 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 	    <scope>test</scope>
 	</dependency>
 	
+	<!-- https://mvnrepository.com/artifact/com.atlassian.oai/swagger-request-validator-restassured -->
+	<dependency>
+	    <groupId>com.atlassian.oai</groupId>
+	    <artifactId>swagger-request-validator-restassured</artifactId>
+	    <version>2.44.1</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+	<dependency>
+	    <groupId>com.googlecode.json-simple</groupId>
+	    <artifactId>json-simple</artifactId>
+	    <version>1.1.1</version>
+	</dependency>
+
+	<!-- https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-ui -->
+	<dependency>
+	    <groupId>org.springdoc</groupId>
+	    <artifactId>springdoc-openapi-ui</artifactId>
+	    <version>1.8.0</version>
+	</dependency>
+	
+	
+	<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+	<dependency>
+	    <groupId>io.qameta.allure</groupId>
+	    <artifactId>allure-testng</artifactId>
+	    <version>2.11.0</version>
+	</dependency>
+
 	<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-library -->
 	<dependency>
 	    <groupId>org.hamcrest</groupId>

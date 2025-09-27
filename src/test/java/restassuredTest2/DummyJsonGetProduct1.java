@@ -9,16 +9,20 @@ import org.testng.annotations.Test;
 import com.fasterxml.jackson.core.JsonProcessingException;
 
 import io.restassured.RestAssured;
+import io.restassured.path.json.JsonPath;
+import io.restassured.response.Response;
 
 public class DummyJsonGetProduct1 {
-	public class DummyJsonGet {
+	public class DummyJsonGet extends TestBase{
 		
 		@BeforeTest
 		public void setData() throws JsonProcessingException
 		
 		{
-			RestAssured.baseURI = "https://dummyjson.com/";
-			RestAssured.basePath ="products/1";
+			configReader();
+			RestAssured.baseURI = prop.getProperty("dummy_base_uri");
+			RestAssured.basePath =prop.getProperty("dummy_base_path");
+
 		}
 		
 		@Test
@@ -41,7 +45,7 @@ public class DummyJsonGetProduct1 {
 			.when()
 				.get()
 			.then()
-				.body("title", equalTo("iPhone 9"));
+				.body("title", equalTo("Essence Mascara Lash Princess"));
 				
 		}
 		
@@ -53,7 +57,7 @@ public class DummyJsonGetProduct1 {
 			.when()
 				.get()
 			.then()
-				.body("title", containsString("iPhone 9"));
+				.body("title", containsString("Essence"));
 				
 		}
 		
@@ -65,7 +69,7 @@ public class DummyJsonGetProduct1 {
 			.when()
 				.get()
 			.then()
-				.body("title", startsWith("i"));
+				.body("title", startsWith("E"));
 				
 		}
 		
@@ -77,7 +81,7 @@ public class DummyJsonGetProduct1 {
 			.when()
 				.get()
 			.then()
-				.body("title", endsWith("9"));
+				.body("title", endsWith("s"));
 				
 		}
 		
@@ -89,7 +93,7 @@ public class DummyJsonGetProduct1 {
 			.when()
 				.get()
 			.then()
-				.body("category", equalToIgnoringCase("SmartPhones"));
+				.body("category", equalToIgnoringCase("beauty"));
 				
 		}
 		@Test
@@ -100,7 +104,7 @@ public class DummyJsonGetProduct1 {
 			.when()
 				.get()
 			.then()
-				.body("description", equalTo("An apple mobile which is nothing like apple"));
+				.body("description", contains("Essence"));
 				
 		}
 		
@@ -112,7 +116,7 @@ public class DummyJsonGetProduct1 {
 			.when()
 				.get()
 			.then()
-				.body("price", comparesEqualTo(549));
+				.body("price", comparesEqualTo(9.99F));
 				
 		}
 		
@@ -124,7 +128,7 @@ public class DummyJsonGetProduct1 {
 			.when()
 				.get()
 			.then()
-				.body("discountPercentage", comparesEqualTo(12.96F));
+				.body("discountPercentage", comparesEqualTo(10.48F));
 				
 		}
 		
@@ -136,7 +140,7 @@ public class DummyJsonGetProduct1 {
 			.when()
 				.get()
 			.then()
-				.body("rating", comparesEqualTo(4.69F));
+				.body("rating", comparesEqualTo(2.56F));
 				
 		}
 		
@@ -148,7 +152,7 @@ public class DummyJsonGetProduct1 {
 			.when()
 				.get()
 			.then()
-				.body("stock", comparesEqualTo(94));
+				.body("stock", comparesEqualTo(99));
 				
 		}
 		
@@ -160,22 +164,25 @@ public class DummyJsonGetProduct1 {
 			.when()
 				.get()
 			.then()
-				.body("brand", equalTo("Apple"));
+				.body("brand", equalTo("Essence"));
 				
 		}
 		
-		/*@Test
-		public void CheckTitleKey()
+		@Test
+		public void checkwithResponse()
 		{
-			given()
+			Response response =given()
 			.contentType("application/json")
 			.when()
 				.get()
 			.then()
-				.body(hasKey("title"));
-				
-		}*/
+				.statusCode(200).extract().response(); 
+			//System.out.println("Response is: " +response);
+			JsonPath extractor = response.jsonPath();
+			String title =extractor.get("title");
+			System.out.println("title is "+title);
 		
+	}
 	}
 }
 

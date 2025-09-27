@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-restassuredTest2" class="navigator-link">
-              <span class="suite-name border-passed">restassuredTest2</span>
+              <span class="suite-name border-failed">restassuredTest2</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,12 +51,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-restassuredTest2" class="navigator-link ">
-                    <span>D:\Automation Documents\API Testing Framework\API Testing Framework\RestassuredAPITesting_BDD\TestNG.xml</span>
+                    <span>D:\Automation and manual Documents\API Testing Framework\API Testing Framework\RestassuredAPITesting_BDD\TestNG.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-restassuredTest2" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">4 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,26 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">15 methods,   15 passed</span>
+                    <span class="method-stats">17 methods, 2 failed,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-restassuredTest2" class="hide-methods failed suite-restassuredTest2"> (hide)</a> <!-- hide-methods failed suite-restassuredTest2 -->
+                      <a href="#" panel-name="suite-restassuredTest2" class="show-methods failed suite-restassuredTest2"> (show)</a> <!-- show-methods failed suite-restassuredTest2 -->
+                    </span>
+                    <div class="method-list-content failed suite-restassuredTest2">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassuredTest2" title="restassuredTest2.Http_201_created" class="method navigator-link" hash-for-method="check201Code">check201Code</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassuredTest2" title="restassuredTest2.DummyJsonGetProduct1$DummyJsonGet" class="method navigator-link" hash-for-method="checkDesc">checkDesc</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-restassuredTest2 -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -124,12 +143,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-restassuredTest2" title="restassuredTest2.DummyJsonGetProduct1$DummyJsonGet" class="method navigator-link" hash-for-method="checkCategoryIgnoreCase">checkCategoryIgnoreCase</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-restassuredTest2" title="restassuredTest2.Http_401_Error" class="method navigator-link" hash-for-method="check401Code">check401Code</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-restassuredTest2" title="restassuredTest2.DummyJsonGetProduct1$DummyJsonGet" class="method navigator-link" hash-for-method="checkDesc">checkDesc</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-restassuredTest2" title="restassuredTest2.Http_404_NotFound" class="method navigator-link" hash-for-method="check404Code">check404Code</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassuredTest2" title="restassuredTest2.Http_201_created" class="method navigator-link" hash-for-method="check422Code">check422Code</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-restassuredTest2" title="restassuredTest2.DummyJsonGetProduct1$DummyJsonGet" class="method navigator-link" hash-for-method="checkCategoryIgnoreCase">checkCategoryIgnoreCase</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -144,17 +173,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-restassuredTest2" title="restassuredTest2.DummyJsonGet" class="method navigator-link" hash-for-method="checkStatusCode">checkStatusCode</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-restassuredTest2" title="restassuredTest2.DummyJsonGetProduct1$DummyJsonGet" class="method navigator-link" hash-for-method="checkTitle">checkTitle</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-restassuredTest2" title="restassuredTest2.DummyJsonGet" class="method navigator-link" hash-for-method="checkTitle">checkTitle</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -174,7 +193,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-restassuredTest2" title="restassuredTest2.DummyJsonGet" class="method navigator-link" hash-for-method="checkwithResponse">checkwithResponse</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-restassuredTest2" title="restassuredTest2.DummyJsonGetProduct1$DummyJsonGet" class="method navigator-link" hash-for-method="checkwithResponse">checkwithResponse</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-restassuredTest2 -->
@@ -189,31 +208,135 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-restassuredTest2" class="panel restassuredTest2">
-          <div class="suite-restassuredTest2-class-passed">
+          <div class="suite-restassuredTest2-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">restassuredTest2.DummyJsonGet</span>
+              <img src="failed.png"/>
+              <span class="class-name">restassuredTest2.Http_201_created</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkStatusCode">
-                  </a> <!-- checkStatusCode -->
-                  <span class="method-name">checkStatusCode</span>
+                  <a name="check201Code">
+                  </a> <!-- check201Code -->
+                  <span class="method-name">check201Code</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+Expected status code &lt;201&gt; but was &lt;422&gt;.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:127)
+	at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+	at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+	at restassuredTest2.Http_201_created.check201Code(Http_201_created.java:55)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 43 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-restassuredTest2-class-failed -->
+          <div class="suite-restassuredTest2-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">restassuredTest2.DummyJsonGetProduct1$DummyJsonGet</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkTitle">
-                  </a> <!-- checkTitle -->
-                  <span class="method-name">checkTitle</span>
+                  <a name="checkDesc">
+                  </a> <!-- checkDesc -->
+                  <span class="method-name">checkDesc</span>
+                  <div class="stack-trace">java.lang.AssertionError: 1 expectation failed.
+JSON path description doesn&apos;t match.
+Expected: iterable containing [&quot;Essence&quot;]
+  Actual: The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.
+
+	at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
+	at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)
+	at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+	at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:262)
+	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+	at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+	at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:109)
+	at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+	at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+	at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+	at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+	at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+	at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+	at restassuredTest2.DummyJsonGetProduct1$DummyJsonGet.checkDesc(DummyJsonGetProduct1.java:107)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 43 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-restassuredTest2-class-failed -->
+          <div class="suite-restassuredTest2-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">restassuredTest2.Http_401_Error</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkwithResponse">
-                  </a> <!-- checkwithResponse -->
-                  <span class="method-name">checkwithResponse</span>
+                  <a name="check401Code">
+                  </a> <!-- check401Code -->
+                  <span class="method-name">check401Code</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-restassuredTest2-class-passed -->
+          <div class="suite-restassuredTest2-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">restassuredTest2.Http_201_created</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="check422Code">
+                  </a> <!-- check422Code -->
+                  <span class="method-name">check422Code</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-restassuredTest2-class-passed -->
+          <div class="suite-restassuredTest2-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">restassuredTest2.Http_404_NotFound</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="check404Code">
+                  </a> <!-- check404Code -->
+                  <span class="method-name">check404Code</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -261,13 +384,6 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="checkDesc">
-                  </a> <!-- checkDesc -->
-                  <span class="method-name">checkDesc</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="checkPrice">
                   </a> <!-- checkPrice -->
                   <span class="method-name">checkPrice</span>
@@ -308,28 +424,48 @@
                   <span class="method-name">checkTitlecontainString</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkwithResponse">
+                  </a> <!-- checkwithResponse -->
+                  <span class="method-name">checkwithResponse</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-restassuredTest2-class-passed -->
         </div> <!-- panel restassuredTest2 -->
         <div panel-name="test-xml-restassuredTest2" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Automation Documents\API Testing Framework\API Testing Framework\RestassuredAPITesting_BDD\TestNG.xml</span>
+            <span class="header-content">D:\Automation and manual Documents\API Testing Framework\API Testing Framework\RestassuredAPITesting_BDD\TestNG.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;restassuredTest2&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test Basics 1&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;io.qameta.allure.testng.AllureTestNg&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test dummyjson testcases&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;restassuredTest2.DummyJsonGetProduct1&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test Basics 1 --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test Basics 2&quot;&gt;
+  &lt;/test&gt; &lt;!-- Test dummyjson testcases --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test 201 code&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;restassuredTest2.DummyJsonGet&quot;/&gt;
+      &lt;class name=&quot;restassuredTest2.Http_201_created&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test Basics 2 --&gt;
+  &lt;/test&gt; &lt;!-- Test 201 code --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test 401_Error&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;restassuredTest2.Http_401_Error&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 401_Error --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test 404_NotFound&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;restassuredTest2.Http_404_NotFound&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test 404_NotFound --&gt;
 &lt;/suite&gt; &lt;!-- restassuredTest2 --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -341,10 +477,16 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test Basics 1 (1 class)</span>
+                <span class="test-name">Test dummyjson testcases (1 class)</span>
               </li>
               <li>
-                <span class="test-name">Test Basics 2 (1 class)</span>
+                <span class="test-name">Test 201 code (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test 401_Error (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Test 404_NotFound (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -370,72 +512,80 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(15);
+data.addRows(17);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'CheckBrand')
 data.setCell(0, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
-data.setCell(0, 3, 1930);
+data.setCell(0, 3, 2307);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'checkCategoryIgnoreCase')
+data.setCell(1, 1, 'checkTitleStartsWith')
 data.setCell(1, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
-data.setCell(1, 3, 979);
+data.setCell(1, 3, 2106);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'checkDesc')
 data.setCell(2, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
-data.setCell(2, 3, 918);
+data.setCell(2, 3, 1345);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'checkTitle')
-data.setCell(3, 2, 'restassuredTest2.DummyJsonGet')
-data.setCell(3, 3, 800);
+data.setCell(3, 1, 'check401Code')
+data.setCell(3, 2, 'restassuredTest2.Http_401_Error')
+data.setCell(3, 3, 1237);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'checkPrice')
+data.setCell(4, 1, 'checkTitlecontainString')
 data.setCell(4, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
-data.setCell(4, 3, 797);
+data.setCell(4, 3, 836);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'checkStatusCode')
-data.setCell(5, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
-data.setCell(5, 3, 791);
+data.setCell(5, 1, 'check201Code')
+data.setCell(5, 2, 'restassuredTest2.Http_201_created')
+data.setCell(5, 3, 836);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'CheckRating')
+data.setCell(6, 1, 'checkTitleEndsWith')
 data.setCell(6, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
-data.setCell(6, 3, 789);
+data.setCell(6, 3, 829);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'CheckDiscountPercentage')
+data.setCell(7, 1, 'CheckStock')
 data.setCell(7, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
-data.setCell(7, 3, 787);
+data.setCell(7, 3, 822);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'checkwithResponse')
-data.setCell(8, 2, 'restassuredTest2.DummyJsonGet')
-data.setCell(8, 3, 787);
+data.setCell(8, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
+data.setCell(8, 3, 797);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'checkStatusCode')
-data.setCell(9, 2, 'restassuredTest2.DummyJsonGet')
-data.setCell(9, 3, 772);
+data.setCell(9, 1, 'CheckRating')
+data.setCell(9, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
+data.setCell(9, 3, 775);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'CheckStock')
+data.setCell(10, 1, 'checkTitle')
 data.setCell(10, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
-data.setCell(10, 3, 770);
+data.setCell(10, 3, 739);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'checkTitleEndsWith')
+data.setCell(11, 1, 'checkStatusCode')
 data.setCell(11, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
-data.setCell(11, 3, 763);
+data.setCell(11, 3, 732);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'checkTitle')
-data.setCell(12, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
-data.setCell(12, 3, 758);
+data.setCell(12, 1, 'check422Code')
+data.setCell(12, 2, 'restassuredTest2.Http_201_created')
+data.setCell(12, 3, 728);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'checkTitlecontainString')
-data.setCell(13, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
-data.setCell(13, 3, 750);
+data.setCell(13, 1, 'check404Code')
+data.setCell(13, 2, 'restassuredTest2.Http_404_NotFound')
+data.setCell(13, 3, 689);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'checkTitleStartsWith')
+data.setCell(14, 1, 'checkCategoryIgnoreCase')
 data.setCell(14, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
-data.setCell(14, 3, 742);
+data.setCell(14, 3, 331);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'checkPrice')
+data.setCell(15, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
+data.setCell(15, 3, 296);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'CheckDiscountPercentage')
+data.setCell(16, 2, 'restassuredTest2.DummyJsonGetProduct1$DummyJsonGet')
+data.setCell(16, 3, 286);
 window.suiteTableData['restassuredTest2']= { tableData: data, tableDiv: 'times-div-restassuredTest2'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
               <div id="times-div-restassuredTest2">
               </div> <!-- times-div-restassuredTest2 -->
             </div> <!-- times-div -->
@@ -468,70 +618,96 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">CheckBrand</span>
-                <span class="method-start">416 ms</span>
+                <span class="method-start">620 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">CheckDiscountPercentage</span>
-                <span class="method-start">2348 ms</span>
+                <span class="method-start">2989 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">CheckRating</span>
-                <span class="method-start">3136 ms</span>
+                <span class="method-start">3279 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">CheckStock</span>
-                <span class="method-start">3926 ms</span>
+                <span class="method-start">4063 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkCategoryIgnoreCase</span>
-                <span class="method-start">4697 ms</span>
+                <span class="method-start">4891 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">checkDesc</span>
-                <span class="method-start">5676 ms</span>
+                <span class="method-start">5223 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkPrice</span>
-                <span class="method-start">6594 ms</span>
+                <span class="method-start">6572 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkStatusCode</span>
-                <span class="method-start">7392 ms</span>
+                <span class="method-start">6875 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkTitle</span>
-                <span class="method-start">8184 ms</span>
+                <span class="method-start">7610 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkTitleEndsWith</span>
-                <span class="method-start">8943 ms</span>
+                <span class="method-start">8351 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkTitleStartsWith</span>
-                <span class="method-start">9706 ms</span>
+                <span class="method-start">9185 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkTitlecontainString</span>
-                <span class="method-start">10449 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">restassuredTest2.DummyJsonGet</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">setData</span>
-                <span class="method-start">11235 ms</span>
-              </div> <!-- configuration-test before -->
-              <div class="test-method">
-                <span class="method-name">checkStatusCode</span>
-                <span class="method-start">11236 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">checkTitle</span>
-                <span class="method-start">12009 ms</span>
+                <span class="method-start">11298 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">checkwithResponse</span>
-                <span class="method-start">12810 ms</span>
+                <span class="method-start">12138 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">restassuredTest2.Http_201_created</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setData</span>
+                <span class="method-start">12983 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">check201Code</span>
+                <span class="method-start">13172 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">check422Code</span>
+                <span class="method-start">14017 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">restassuredTest2.Http_401_Error</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setData</span>
+                <span class="method-start">14782 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">check401Code</span>
+                <span class="method-start">14789 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">restassuredTest2.Http_404_NotFound</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setData</span>
+                <span class="method-start">16056 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">check404Code</span>
+                <span class="method-start">16059 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

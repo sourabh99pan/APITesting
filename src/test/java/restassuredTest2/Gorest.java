@@ -8,14 +8,14 @@ public class Gorest {
 	String gender;    
 	String status;
 	                                                                     
-	public Gorest(int id,String name, String email, String gender,String status)     
+	/*public Gorest(int id,String name, String email, String gender,String status)     
 	{      
 		this.id=id;
 		this.name = name;                                                  
 		this.email = email;                                        
 		this.gender = gender; 
 		this.status =status;
-	}                                                                    
+	}*/                                                                    
 	                                                                     
 	public int getId() {                                             
 		return id;                                                      

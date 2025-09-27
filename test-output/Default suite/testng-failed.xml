@@ -3,12 +3,24 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="restassuredTest2.Http_201_created">
+      <class name="restassuredTest2.DummyJsonGetProduct1$DummyJsonGet">
         <methods>
-          <include name="check422Code"/>
+          <include name="checkTitleStartsWith"/>
+          <include name="checkDesc"/>
+          <include name="checkStatusCode"/>
+          <include name="checkPrice"/>
           <include name="setData"/>
+          <include name="checkCategoryIgnoreCase"/>
+          <include name="checkTitle"/>
+          <include name="CheckBrand"/>
+          <include name="CheckStock"/>
+          <include name="CheckDiscountPercentage"/>
+          <include name="checkTitleEndsWith"/>
+          <include name="checkwithResponse"/>
+          <include name="CheckRating"/>
+          <include name="checkTitlecontainString"/>
         </methods>
-      </class> <!-- restassuredTest2.Http_201_created -->
+      </class> <!-- restassuredTest2.DummyJsonGetProduct1$DummyJsonGet -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="restassuredTest2">
-  <test name="Test Basics 1">
+  <test name="Test dummyjson testcases">
       <classes>
       <class name="restassuredTest2.DummyJsonGetProduct1"/>
       </classes>
   </test> <!-- Test --> 
    
-  <test name="Test Basics 2">    
+   
+  <test name="Test 201 code">    
     <classes>
-       <class name="restassuredTest2.DummyJsonGet"/>
+       <class name="restassuredTest2.Http_201_created"/>
     </classes>
  
  
   </test> <!-- Test -->
   
-    <test name="Test Basics 3">    
+    <test name="Test 401_Error">    
     <classes>
        <class name="restassuredTest2.Http_401_Error"/>
     </classes> 
   </test> <!-- Test -->
   
-      <test name="Test Basics 4">    
+      <test name="Test 404_NotFound">    
     <classes>
        <class name="restassuredTest2.Http_404_NotFound"/>
     </classes> 

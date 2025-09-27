@@ -46,6 +46,7 @@ public class DummyJsonGet {
 		//System.out.println("Response is: " +response);
 		JsonPath extractor = response.jsonPath();
 		String title =extractor.get("title");
+		System.out.println("title is "+title);
 		
 			
 	}
@@ -58,7 +59,7 @@ public class DummyJsonGet {
 		.when()
 			.get()
 		.then()
-			.body("products.title", hasItems("iPhone 9","Samsung Universe 9","OPPOF19"))
+			.body("products.title", hasItems("Red Lipstick","Red Nail Polish","Calvin Klein CK One"))
 			.log().all();
 	}
 	

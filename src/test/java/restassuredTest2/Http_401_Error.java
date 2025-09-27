@@ -2,6 +2,10 @@ package restassuredTest2;
 
 import static io.restassured.RestAssured.given;
 
+import java.io.File;
+import java.io.IOException;
+
+import org.json.simple.parser.JSONParser;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -10,18 +14,23 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.restassured.RestAssured;
 
-public class Http_401_Error {
+public class Http_401_Error extends TestBase{
 	
 	String myData ="";
 	@BeforeTest
-	public void setData() throws JsonProcessingException
+	public void setData() throws IOException
 	
 	{
-		RestAssured.baseURI = "https://gorest.co.in/public/v2/";
-		RestAssured.basePath ="users";
-		Gorest Gorest = new Gorest(7865,"Sourabh Pandya","sourabh876@mail.com","male","active");
+		configReader();
 		
+		RestAssured.baseURI = prop.getProperty("base_uri_1");
+		RestAssured.basePath =prop.getProperty("base_path_1");
+		JSONParser jsonParser = new JSONParser();
+		String path = System.getProperty("user.dir")+"/src/test/resources/data.json";
+
 		ObjectMapper objMap = new ObjectMapper();
+		
+		Gorest Gorest = objMap.readValue(new File(path), Gorest.class);
 		
 		String myData = objMap.writerWithDefaultPrettyPrinter().writeValueAsString(Gorest);
 	}

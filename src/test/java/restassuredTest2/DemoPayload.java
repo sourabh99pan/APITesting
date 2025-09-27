@@ -12,13 +12,13 @@ public class DemoPayload {
 
 	public static void main(String[] args) throws JsonProcessingException {
 		
-		Gorest Gorest = new Gorest(7865,"Sourabh Pandya","sourabh7@mail.com","male","active");
+		//Gorest Gorest = new Gorest(7865,"Sourabh Pandya","sourabh7@mail.com","male","active");
 		
 		ObjectMapper objMap = new ObjectMapper();
 		
-		String myData = objMap.writerWithDefaultPrettyPrinter().writeValueAsString(Gorest);
+		////String myData = objMap.writerWithDefaultPrettyPrinter().writeValueAsString(Gorest);
 		
-		System.out.println(myData);
+		//System.out.println(myData);
 				
 	}
 }

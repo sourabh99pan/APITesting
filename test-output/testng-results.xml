@@ -1,85 +1,271 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+<testng-results ignored="0" total="17" passed="15" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-12-20T16:02:27 IST" name="restassuredTest2" finished-at="2022-12-20T16:02:40 IST" duration-ms="13601">
+  <suite started-at="2025-09-21T19:01:18 IST" name="restassuredTest2" finished-at="2025-09-21T19:01:35 IST" duration-ms="16760">
     <groups>
     </groups>
-    <test started-at="2022-12-20T16:02:27 IST" name="Test Basics 1" finished-at="2022-12-20T16:02:38 IST" duration-ms="11204">
+    <test started-at="2025-09-21T19:01:18 IST" name="Test dummyjson testcases" finished-at="2025-09-21T19:01:31 IST" duration-ms="12946">
       <class name="restassuredTest2.DummyJsonGetProduct1$DummyJsonGet">
-        <test-method is-config="true" signature="setData()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:27 IST" name="setData" finished-at="2022-12-20T16:02:27 IST" duration-ms="402" status="PASS">
+        <test-method is-config="true" signature="setData()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@51fadaff]" started-at="2025-09-21T19:01:18 IST" name="setData" finished-at="2025-09-21T19:01:19 IST" duration-ms="598" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setData -->
-        <test-method signature="CheckBrand()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:27 IST" name="CheckBrand" finished-at="2022-12-20T16:02:29 IST" duration-ms="1930" status="PASS">
+        <test-method signature="CheckBrand()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@51fadaff]" started-at="2025-09-21T19:01:19 IST" name="CheckBrand" finished-at="2025-09-21T19:01:21 IST" duration-ms="2307" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckBrand -->
-        <test-method signature="CheckDiscountPercentage()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:29 IST" name="CheckDiscountPercentage" finished-at="2022-12-20T16:02:30 IST" duration-ms="787" status="PASS">
+        <test-method signature="CheckDiscountPercentage()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@51fadaff]" started-at="2025-09-21T19:01:21 IST" name="CheckDiscountPercentage" finished-at="2025-09-21T19:01:21 IST" duration-ms="286" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckDiscountPercentage -->
-        <test-method signature="CheckRating()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:30 IST" name="CheckRating" finished-at="2022-12-20T16:02:31 IST" duration-ms="789" status="PASS">
+        <test-method signature="CheckRating()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@51fadaff]" started-at="2025-09-21T19:01:21 IST" name="CheckRating" finished-at="2025-09-21T19:01:22 IST" duration-ms="775" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckRating -->
-        <test-method signature="CheckStock()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:31 IST" name="CheckStock" finished-at="2022-12-20T16:02:31 IST" duration-ms="770" status="PASS">
+        <test-method signature="CheckStock()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@51fadaff]" started-at="2025-09-21T19:01:22 IST" name="CheckStock" finished-at="2025-09-21T19:01:23 IST" duration-ms="822" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckStock -->
-        <test-method signature="checkCategoryIgnoreCase()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:31 IST" name="checkCategoryIgnoreCase" finished-at="2022-12-20T16:02:32 IST" duration-ms="979" status="PASS">
+        <test-method signature="checkCategoryIgnoreCase()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@51fadaff]" started-at="2025-09-21T19:01:23 IST" name="checkCategoryIgnoreCase" finished-at="2025-09-21T19:01:23 IST" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCategoryIgnoreCase -->
-        <test-method signature="checkDesc()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:32 IST" name="checkDesc" finished-at="2022-12-20T16:02:33 IST" duration-ms="918" status="PASS">
+        <test-method signature="checkDesc()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@51fadaff]" started-at="2025-09-21T19:01:23 IST" name="checkDesc" finished-at="2025-09-21T19:01:25 IST" duration-ms="1345" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+JSON path description doesn't match.
+Expected: iterable containing ["Essence"]
+  Actual: The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+JSON path description doesn't match.
+Expected: iterable containing ["Essence"]
+  Actual: The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:59)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:262)
+at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:51)
+at io.restassured.specification.ResponseSpecification$body$0.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:109)
+at io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+at io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+at io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+at restassuredTest2.DummyJsonGetProduct1$DummyJsonGet.checkDesc(DummyJsonGetProduct1.java:107)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDesc -->
-        <test-method signature="checkPrice()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:33 IST" name="checkPrice" finished-at="2022-12-20T16:02:34 IST" duration-ms="797" status="PASS">
+        <test-method signature="checkPrice()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@51fadaff]" started-at="2025-09-21T19:01:25 IST" name="checkPrice" finished-at="2025-09-21T19:01:25 IST" duration-ms="296" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkPrice -->
-        <test-method signature="checkStatusCode()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:34 IST" name="checkStatusCode" finished-at="2022-12-20T16:02:35 IST" duration-ms="791" status="PASS">
+        <test-method signature="checkStatusCode()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@51fadaff]" started-at="2025-09-21T19:01:25 IST" name="checkStatusCode" finished-at="2025-09-21T19:01:26 IST" duration-ms="732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkTitle()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:35 IST" name="checkTitle" finished-at="2022-12-20T16:02:36 IST" duration-ms="758" status="PASS">
+        <test-method signature="checkTitle()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@51fadaff]" started-at="2025-09-21T19:01:26 IST" name="checkTitle" finished-at="2025-09-21T19:01:26 IST" duration-ms="739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle -->
-        <test-method signature="checkTitleEndsWith()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:36 IST" name="checkTitleEndsWith" finished-at="2022-12-20T16:02:36 IST" duration-ms="763" status="PASS">
+        <test-method signature="checkTitleEndsWith()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@51fadaff]" started-at="2025-09-21T19:01:26 IST" name="checkTitleEndsWith" finished-at="2025-09-21T19:01:27 IST" duration-ms="829" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitleEndsWith -->
-        <test-method signature="checkTitleStartsWith()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:36 IST" name="checkTitleStartsWith" finished-at="2022-12-20T16:02:37 IST" duration-ms="742" status="PASS">
+        <test-method signature="checkTitleStartsWith()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@51fadaff]" started-at="2025-09-21T19:01:27 IST" name="checkTitleStartsWith" finished-at="2025-09-21T19:01:29 IST" duration-ms="2106" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitleStartsWith -->
-        <test-method signature="checkTitlecontainString()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@194bcebf]" started-at="2022-12-20T16:02:37 IST" name="checkTitlecontainString" finished-at="2022-12-20T16:02:38 IST" duration-ms="750" status="PASS">
+        <test-method signature="checkTitlecontainString()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@51fadaff]" started-at="2025-09-21T19:01:29 IST" name="checkTitlecontainString" finished-at="2025-09-21T19:01:30 IST" duration-ms="836" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitlecontainString -->
-      </class> <!-- restassuredTest2.DummyJsonGetProduct1$DummyJsonGet -->
-    </test> <!-- Test Basics 1 -->
-    <test started-at="2022-12-20T16:02:38 IST" name="Test Basics 2" finished-at="2022-12-20T16:02:40 IST" duration-ms="2363">
-      <class name="restassuredTest2.DummyJsonGet">
-        <test-method is-config="true" signature="setData()[pri:0, instance:restassuredTest2.DummyJsonGet@5e600dd5]" started-at="2022-12-20T16:02:38 IST" name="setData" finished-at="2022-12-20T16:02:38 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setData -->
-        <test-method signature="checkStatusCode()[pri:0, instance:restassuredTest2.DummyJsonGet@5e600dd5]" started-at="2022-12-20T16:02:38 IST" name="checkStatusCode" finished-at="2022-12-20T16:02:39 IST" duration-ms="772" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkStatusCode -->
-        <test-method signature="checkTitle()[pri:0, instance:restassuredTest2.DummyJsonGet@5e600dd5]" started-at="2022-12-20T16:02:39 IST" name="checkTitle" finished-at="2022-12-20T16:02:39 IST" duration-ms="800" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- checkTitle -->
-        <test-method signature="checkwithResponse()[pri:0, instance:restassuredTest2.DummyJsonGet@5e600dd5]" started-at="2022-12-20T16:02:39 IST" name="checkwithResponse" finished-at="2022-12-20T16:02:40 IST" duration-ms="787" status="PASS">
+        <test-method signature="checkwithResponse()[pri:0, instance:restassuredTest2.DummyJsonGetProduct1$DummyJsonGet@51fadaff]" started-at="2025-09-21T19:01:30 IST" name="checkwithResponse" finished-at="2025-09-21T19:01:31 IST" duration-ms="797" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkwithResponse -->
-      </class> <!-- restassuredTest2.DummyJsonGet -->
-    </test> <!-- Test Basics 2 -->
+      </class> <!-- restassuredTest2.DummyJsonGetProduct1$DummyJsonGet -->
+    </test> <!-- Test dummyjson testcases -->
+    <test started-at="2025-09-21T19:01:31 IST" name="Test 201 code" finished-at="2025-09-21T19:01:33 IST" duration-ms="1771">
+      <class name="restassuredTest2.Http_201_created">
+        <test-method is-config="true" signature="setData()[pri:0, instance:restassuredTest2.Http_201_created@4b23c30a]" started-at="2025-09-21T19:01:31 IST" name="setData" finished-at="2025-09-21T19:01:31 IST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method signature="check201Code()[pri:0, instance:restassuredTest2.Http_201_created@4b23c30a]" started-at="2025-09-21T19:01:31 IST" name="check201Code" finished-at="2025-09-21T19:01:32 IST" duration-ms="836" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[1 expectation failed.
+Expected status code <201> but was <422>.
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 1 expectation failed.
+Expected status code <201> but was <422>.
+
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:72)
+at org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:59)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:277)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:499)
+at io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:684)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:193)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:61)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:185)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:127)
+at io.restassured.specification.ResponseSpecification$statusCode$1.callCurrent(Unknown Source)
+at io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:135)
+at io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:89)
+at io.restassured.internal.ValidatableResponseImpl.super$2$statusCode(ValidatableResponseImpl.groovy)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:107)
+at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+at org.codehaus.groovy.runtime.ScriptBytecodeAdapter.invokeMethodOnSuperN(ScriptBytecodeAdapter.java:144)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy:142)
+at io.restassured.internal.ValidatableResponseImpl.statusCode(ValidatableResponseImpl.groovy)
+at restassuredTest2.Http_201_created.check201Code(Http_201_created.java:55)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check201Code -->
+        <test-method signature="check422Code()[pri:0, instance:restassuredTest2.Http_201_created@4b23c30a]" started-at="2025-09-21T19:01:32 IST" name="check422Code" finished-at="2025-09-21T19:01:33 IST" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check422Code -->
+      </class> <!-- restassuredTest2.Http_201_created -->
+    </test> <!-- Test 201 code -->
+    <test started-at="2025-09-21T19:01:33 IST" name="Test 401_Error" finished-at="2025-09-21T19:01:34 IST" duration-ms="1261">
+      <class name="restassuredTest2.Http_401_Error">
+        <test-method is-config="true" signature="setData()[pri:0, instance:restassuredTest2.Http_401_Error@13ad5cd3]" started-at="2025-09-21T19:01:33 IST" name="setData" finished-at="2025-09-21T19:01:33 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method signature="check401Code()[pri:0, instance:restassuredTest2.Http_401_Error@13ad5cd3]" started-at="2025-09-21T19:01:33 IST" name="check401Code" finished-at="2025-09-21T19:01:34 IST" duration-ms="1237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check401Code -->
+      </class> <!-- restassuredTest2.Http_401_Error -->
+    </test> <!-- Test 401_Error -->
+    <test started-at="2025-09-21T19:01:34 IST" name="Test 404_NotFound" finished-at="2025-09-21T19:01:35 IST" duration-ms="698">
+      <class name="restassuredTest2.Http_404_NotFound">
+        <test-method is-config="true" signature="setData()[pri:0, instance:restassuredTest2.Http_404_NotFound@6ce86ce1]" started-at="2025-09-21T19:01:34 IST" name="setData" finished-at="2025-09-21T19:01:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method signature="check404Code()[pri:0, instance:restassuredTest2.Http_404_NotFound@6ce86ce1]" started-at="2025-09-21T19:01:34 IST" name="check404Code" finished-at="2025-09-21T19:01:35 IST" duration-ms="689" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- check404Code -->
+      </class> <!-- restassuredTest2.Http_404_NotFound -->
+    </test> <!-- Test 404_NotFound -->
   </suite> <!-- restassuredTest2 -->
 </testng-results>

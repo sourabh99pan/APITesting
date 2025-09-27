@@ -16,7 +16,7 @@ public class Error404 {
 	
 	{
 		RestAssured.baseURI = "https://dummyjson.com/";
-		RestAssured.basePath ="product";
+		RestAssured.basePath ="product/%";
 	}
 	
 	@Test
@@ -40,6 +40,6 @@ public class Error404 {
 			.get()
 		.then()
 		.extract().response().asString();
-		Assert.assertEquals(output.contains("not found!"), true);
+		Assert.assertEquals(output.contains("not found"), true);
 	}
 }

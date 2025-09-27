@@ -10,22 +10,25 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.restassured.RestAssured;
 
-public class Http_404_NotFound {
+public class Http_404_NotFound extends TestBase{
 	
 	String myData ="";
 	@BeforeTest
 	public void setData() throws JsonProcessingException
 	
 	{
-		RestAssured.baseURI = "https://gorest.co.in/public/v2/";
-		RestAssured.basePath ="users/5770";
+		
+		configReader();
+		
+		RestAssured.baseURI = prop.getProperty("base_uri_1");
+		RestAssured.basePath =prop.getProperty("base_path_2");
 
 	}
 	
 	@Test
 	public void check404Code()
 	{
-		String token = "f0967927985c2e003a29751372dda291ce9eb580818866b687526ba1322cbeab";
+		String token = prop.getProperty("access_token");
 		given()
 		.header("Authorization", "bearer " +token)
 		.contentType("application/json")
